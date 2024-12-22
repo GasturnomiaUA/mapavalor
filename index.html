@@ -92,34 +92,49 @@
 
         /* Estilo para la imagen */
         .contact-section {
-        position: fixed; /* Fijamos la imagen para que permanezca en su lugar */
-        bottom: 10px;    /* Distancia desde el borde inferior */
-        left: 10px;      /* Distancia desde el borde izquierdo */
-        width: 150px;    /* Tamaño de la imagen */
-        height: 150px;
-        background-image: url('Icono_Gasturnomia.png'); /* Asegúrate de poner la ruta correcta de la imagen */
-        background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
-        background-position: center; /* Centra la imagen */
-        border-radius: 8px;  /* Bordes redondeados */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
-        z-index: 1000; /* Asegura que la imagen esté sobre el mapa */
-}
-
+            position: fixed; /* Fijamos la imagen para que permanezca en su lugar */
+            bottom: 10px;    /* Distancia desde el borde inferior */
+            left: 10px;      /* Distancia desde el borde izquierdo */
+            width: 150px;    /* Tamaño de la imagen */
+            height: 150px;
+            background-image: url('Icono_Gasturnomia.png'); /* Asegúrate de poner la ruta correcta de la imagen */
+            background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+            background-position: center; /* Centra la imagen */
+            border-radius: 8px;  /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+            z-index: 1000; /* Asegura que la imagen esté sobre el mapa */
+        }
 
         /* Estilo para el texto de contacto */
         .contact-info {
-        position: absolute;
-        bottom: 585px; /* Ajusta la distancia desde la parte inferior */
-        left: 92%;    /* Centra el texto horizontalmente */
-        transform: translateX(-50%); /* Para centrarlo exactamente */
-        background-color: rgba(211, 211, 211, 0.7); /* Fondo gris claro semitransparente */
-        color: black;  /* Color del texto */
-        font-weight: bold;
-        padding: 5px 10px;  /* Espaciado alrededor del texto */
-        border-radius: 5px;  /* Bordes redondeados */
-        font-size: 14px;     /* Ajusta el tamaño de la fuente */
-        z-index: 1000; /* Asegura que el texto esté por encima del mapa */
-        display: block;
+            position: fixed; /* Fijamos el texto */
+            bottom: 10px; /* Ajusta la distancia desde la parte inferior */
+            left: 170px; /* Alinea el texto con la imagen */
+            background-color: rgba(211, 211, 211, 0.7); /* Fondo gris claro semitransparente */
+            color: black;  /* Color del texto */
+            font-weight: bold; /* Texto en negrita */
+            padding: 5px 10px;  /* Espaciado alrededor del texto */
+            border-radius: 5px;  /* Bordes redondeados */
+            font-size: 14px;     /* Ajusta el tamaño de la fuente */
+            z-index: 1000; /* Asegura que el texto esté por encima del mapa */
+        }
+
+        /* Responsividad */
+        @media (max-width: 768px) {
+            .contact-section {
+                width: 100px;
+                height: 100px;
+            }
+
+            .contact-info {
+                font-size: 12px;
+                bottom: 120px;
+            }
+
+            .layer-control {
+                max-width: 90%;
+                font-size: 12px;
+            }
         }
     </style>
 </head>
