@@ -46,7 +46,7 @@
         /* Control de capas */
         .layer-control {
             position: absolute;
-            top: 120px;
+            top: 60px;
             right: 10px;
             background: white;
             padding: 10px;
@@ -132,8 +132,24 @@
             }
 
             .layer-control {
+                display: none; /* Oculta el control de capas por defecto en móviles */
                 max-width: 90%;
                 font-size: 12px;
+            }
+
+            /* Botón para mostrar capas */
+            .layer-toggle {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                background-color: green;
+                color: white;
+                padding: 5px 10px;
+                border: none;
+                border-radius: 5px;
+                font-size: 14px;
+                z-index: 1100;
+                display: block; /* Muestra el botón en móvil */
             }
         }
     </style>
@@ -147,6 +163,9 @@
 
     <!-- Contenedor del mapa -->
     <div id="map"></div>
+    
+    <!-- Botón para mostrar/ocultar el menú de capas en móviles -->
+    <button class="layer-toggle" onclick="toggleLayerControl()">Mostrar Capas</button>
     
     <!-- Control de capas personalizado -->
     <div class="layer-control">
@@ -567,28 +586,35 @@
     </div>
     
    <!-- Imagen de contacto (sin texto ni funcionalidad de clic) -->
-    <div class="contact-section"></div>
+   <div class="contact-section"></div>
 
-<!-- Control de contacto (texto visible sin interferir con la imagen) -->
-    <div id="contact-info" class="contact-info">
-        <span>Contacto: <a href="mailto:enrique.molto@gcloud.ua.es">enrique.molto@gcloud.ua.es</a></span>
-    </div>
-
-    <!-- Script de Leaflet -->
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-
-    <!-- Enlace a script.js -->
-    <script src="script.js"></script>
-
-    <!-- Función para alternar la visibilidad de los submenús de capas -->
-    <script>
-        function toggleLayers(layerId, groupId) {
-            var layerGroup = document.getElementById(layerId);
-            var groupElement = document.getElementById(groupId);
-            var isOpen = layerGroup.style.display === 'block';
-            layerGroup.style.display = isOpen ? 'none' : 'block';
-            groupElement.classList.toggle('open', !isOpen);
-        }
-    </script>
-</body>
-</html>
+   <!-- Control de contacto (texto visible sin interferir con la imagen) -->
+       <div id="contact-info" class="contact-info">
+           <span>Contacto: <a href="mailto:enrique.molto@gcloud.ua.es">enrique.molto@gcloud.ua.es</a></span>
+       </div>
+   
+       <!-- Script de Leaflet -->
+       <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+   
+       <!-- Enlace a script.js -->
+       <script src="script.js"></script>
+   
+       <!-- Función para alternar la visibilidad de los submenús de capas -->
+       <script>
+           function toggleLayers(layerId, groupId) {
+               var layerGroup = document.getElementById(layerId);
+               var groupElement = document.getElementById(groupId);
+               var isOpen = layerGroup.style.display === 'block';
+               layerGroup.style.display = isOpen ? 'none' : 'block';
+               groupElement.classList.toggle('open', !isOpen);
+           }
+   
+           // Función para mostrar/ocultar el menú de capas en la versión móvil
+           function toggleLayerControl() {
+               var layerControl = document.querySelector('.layer-control');
+               var isLayerControlVisible = layerControl.style.display === 'block';
+               layerControl.style.display = isLayerControlVisible ? 'none' : 'block';
+           }
+       </script>
+   </body>
+   </html>
