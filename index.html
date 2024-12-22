@@ -57,6 +57,7 @@
             width: 200px;
             max-height: 80vh;
             overflow-y: auto;
+            display: none; /* Oculto por defecto en móviles */
         }
 
         .layer-group {
@@ -129,10 +130,11 @@
             .contact-info {
                 font-size: 12px;
                 bottom: 120px;
+                left: 90px; /* Ajusta para estar al lado de la imagen */
             }
 
             .layer-control {
-                display: none; /* Oculta el control de capas por defecto en móviles */
+                display: none; /* El control de capas sigue oculto por defecto en móviles */
                 max-width: 90%;
                 font-size: 12px;
             }
@@ -147,9 +149,15 @@
                 padding: 5px 10px;
                 border: none;
                 border-radius: 5px;
-                font-size: 14px;
-                z-index: 1100;
-                display: block; /* Muestra el botón en móvil */
+                font-size: 16px;
+                z-index: 1001; /* Asegúrate que esté encima del mapa */
+            }
+
+            /* Ajustes para mobile horizontal */
+            @media (orientation: landscape) {
+                .contact-info {
+                    left: 130px; /* Ajuste para mejor distribución */
+                }
             }
         }
     </style>
@@ -164,8 +172,8 @@
     <!-- Contenedor del mapa -->
     <div id="map"></div>
     
-    <!-- Botón para mostrar/ocultar el menú de capas en móviles -->
-    <button class="layer-toggle" onclick="toggleLayerControl()">Mostrar Capas</button>
+    <!-- Botón "Mostrar Capas" en versión móvil -->
+    <button class="layer-toggle" id="showLayersBtn" onclick="toggleLayerControl()">Mostrar Capas</button>
     
     <!-- Control de capas personalizado -->
     <div class="layer-control">
@@ -609,11 +617,11 @@
                groupElement.classList.toggle('open', !isOpen);
            }
    
-           // Función para mostrar/ocultar el menú de capas en la versión móvil
+           // Función para mostrar/ocultar el control de capas en móviles
            function toggleLayerControl() {
-               var layerControl = document.querySelector('.layer-control');
-               var isLayerControlVisible = layerControl.style.display === 'block';
-               layerControl.style.display = isLayerControlVisible ? 'none' : 'block';
+               var layerControl = document.getElementById('layerControl');
+               var isVisible = layerControl.style.display === 'block';
+               layerControl.style.display = isVisible ? 'none' : 'block';
            }
        </script>
    </body>
