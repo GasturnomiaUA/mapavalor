@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Nispero1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 2, "MUNICIPIO": "Callosa D´en Sarrià", "CEN_DS_NOM": "Cooperativa Agrícola De Callosa D´en Sarrià ", "LOC_DS_DIR": "Calle Partida Micleta, Km. 0,800", "LOC_DS_WEB": "https://ruchey.es/" }, "geometry": { "type": "Point", "coordinates": [ -0.120959809999988, 38.651274221999984 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "MUNICIPIO": "Altea", "CEN_DS_NOM": "Safir Fruits", "LOC_DS_DIR": "Partida Montahud, nº 36", "LOC_DS_WEB": "https://safirfruits.es/" }, "geometry": { "type": "Point", "coordinates": [ -0.077709749164435, 38.60514516780605 ] } }
+]
+}

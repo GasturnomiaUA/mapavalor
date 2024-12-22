@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "ALCACHOFA",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 2, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Almacén De Frutas I Verduras Belgi", "LOC_DS_DIR": "Partida Surrach, 69", "LOC_DS_WEB": "http://www.fruitsbelgi.es/", "Agroturismo": "-" }, "geometry": { "type": "Point", "coordinates": [ 0.436827372000039, 40.424183411000058 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Senar Caldés S. A. T 8088", "LOC_DS_DIR": "Partida Carrasca, 41", "LOC_DS_WEB": null, "Agroturismo": "-" }, "geometry": { "type": "Point", "coordinates": [ 0.406186965000074, 40.44798572500008 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Benifresc", "LOC_DS_DIR": "Pol. Ind. \"el Collet\" Parcela 211", "LOC_DS_WEB": null, "Agroturismo": null }, "geometry": { "type": "Point", "coordinates": [ 0.404909777000057, 40.432505248000041 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Hortalizas Flasan S. A. T 5286", "LOC_DS_DIR": "Cristo Del Mar, 179", "LOC_DS_WEB": null, "Agroturismo": null }, "geometry": { "type": "Point", "coordinates": [ 0.432088308000061, 40.417624487000069 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Frudex", "LOC_DS_DIR": "Partida Puig parcela 370", "LOC_DS_WEB": "www.frudexsl.com", "Agroturismo": "-" }, "geometry": { "type": "Point", "coordinates": [ 0.413682769000047, 40.417448593000074 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Cooperativa Agrícola \"San Isidro\" de Benicarló", "LOC_DS_DIR": "Polig. Ind. \"el Collet\" Parcelas 301-305", "LOC_DS_WEB": "www.benihort.com", "Agroturismo": "-" }, "geometry": { "type": "Point", "coordinates": [ 0.404909777000057, 40.432505248000041 ] } },
+{ "type": "Feature", "properties": { "fid": 8, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Frutas Y Verduras Vamp, S. L.", "LOC_DS_DIR": "Polig. Ind. Mercado Abastos, 11", "LOC_DS_WEB": null, "Agroturismo": null }, "geometry": { "type": "Point", "coordinates": [ 0.418094566000036, 40.422424763000038 ] } },
+{ "type": "Feature", "properties": { "fid": 9, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Frutas Hijos De Juan Casado, S. L.", "LOC_DS_DIR": "Polig. Ind. \"el Collet\" Parcela 407", "LOC_DS_WEB": null, "Agroturismo": null }, "geometry": { "type": "Point", "coordinates": [ 0.404909777000057, 40.432505248000041 ] } },
+{ "type": "Feature", "properties": { "fid": 66, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Hortalizas Pascual Berga", "LOC_DS_DIR": "Pol. Ind. Collet, 100", "LOC_DS_WEB": "", "Agroturismo": "-" }, "geometry": { "type": "Point", "coordinates": [ 0.398616745000027, 40.433574949000047 ] } },
+{ "type": "Feature", "properties": { "fid": 88, "MUNICIPIO": "Benicarló", "CEN_DS_NOM": "Exotic Fruits Azahar", "LOC_DS_DIR": "Partida Solaes, 8002", "LOC_DS_WEB": "-", "Agroturismo": "-" }, "geometry": { "type": "Point", "coordinates": [ 0.421994956000049, 40.410989703000041 ] } }
+]
+}

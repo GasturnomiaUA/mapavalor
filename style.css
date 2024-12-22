@@ -1,0 +1,36 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#map {
+    height: 100vh; /* Asegura que el mapa ocupe toda la ventana */
+}
+
+/* Estilo para la barra superior */
+.header {
+    background-color: green;    /* Fondo verde */
+    padding: 10px 20px;         /* Espaciado interno */
+    display: flex;              /* Flexbox para organizar los elementos */
+    justify-content: space-between; /* Distribuir el contenido a ambos extremos */
+    align-items: center;        /* Centrar verticalmente los elementos */
+    color: white;               /* Texto en blanco */
+    font-family: Arial, sans-serif; /* Fuente del título */
+}
+
+.title {
+    background-color: #28a745; /* Fondo verde */
+    color: white;             /* Texto blanco */
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;        /* Texto en negrita */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilo para la imagen en la barra */
+.header-image {
+    height: 50px;              /* Altura de la imagen */
+    width: auto;               /* Ajustar el ancho proporcionalmente */
+}

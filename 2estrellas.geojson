@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "2estrellas",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Name": "MIC2", "Nombre": "L'Escaleta", "Dirección": "Pujada Estació del Nord 205", "Municipio": "Cocentaina", "Web": "https://www.lescaleta.com/", "Distinción": "2* MICHELIN" }, "geometry": { "type": "Point", "coordinates": [ -0.446606982199186, 38.757033393541363, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Name": "MIC3", "Nombre": "BoAmb", "Dirección": "Carretera de Benitachell 100", "Municipio": "Xàbia", "Web": "https://bonamb.com/", "Distinción": "2* MICHELIN" }, "geometry": { "type": "Point", "coordinates": [ 0.148599505190313, 38.770121249104108, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Name": "MIC4", "Nombre": "El Poblet", "Dirección": "Correos 8-1º", "Municipio": "València", "Web": "https://elpobletrestaurante.com/", "Distinción": "2* MICHELIN" }, "geometry": { "type": "Point", "coordinates": [ -0.374502645350942, 39.469695988357898, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Name": "MIC5", "Nombre": "Ricard Camarena", "Dirección": "Avenida Burjassot 54", "Municipio": "València", "Web": "https://www.ricardcamarenarestaurant.com/", "Distinción": "2* MICHELIN y ESTRELLA VERDE MICHELIN" }, "geometry": { "type": "Point", "coordinates": [ -0.38525261286158, 39.4852533195399, 0.0 ] } }
+]
+}

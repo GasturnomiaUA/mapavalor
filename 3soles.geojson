@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "3soles",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Name": "SOL1", "Nombre": "BonAmb", "Categoría": "Restaurante", "Dirección": "Ctra. Benitachell, 100", "Municipio": "Xàbia", "Web_Info": "https://bonamb.com/", "Distinción": "3 SOLES REPSOL" }, "geometry": { "type": "Point", "coordinates": [ 0.148599505190313, 38.770121249104108, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Name": "SOL2", "Nombre": "L'Escaleta", "Categoría": "Restaurante", "Dirección": "Subida Estación del Norte, 205", "Municipio": "Cocentaina", "Web_Info": "https://www.lescaleta.com/", "Distinción": "3 SOLES REPSOL" }, "geometry": { "type": "Point", "coordinates": [ -0.446606982199186, 38.757033393541363, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Name": "SOL3", "Nombre": "Quique Dacosta", "Categoría": "Restaurante", "Dirección": "Carrer Rascassa, 1", "Municipio": "Dénia ", "Web_Info": "https://www.quiquedacosta.es/", "Distinción": "3 SOLES REPSOL" }, "geometry": { "type": "Point", "coordinates": [ 0.085176041685148, 38.853736698144168, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Name": "SOL4", "Nombre": "Ricard Camarena Restaurant", "Categoría": "Restaurante", "Dirección": "Avenida de Burjassot, 54", "Municipio": "Valencia", "Web_Info": "https://ricardcamarena.com/restaurant/ricard-camarena-restaurant/", "Distinción": "3 SOLES REPSOL" }, "geometry": { "type": "Point", "coordinates": [ -0.38525261286158, 39.4852533195399, 0.0 ] } }
+]
+}

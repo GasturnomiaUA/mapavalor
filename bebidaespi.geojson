@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "bebidaespi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "MUNICIPIO": "Monforte Del Cid", "CEN_DS_NOM": "Destilerias De Monforte Del Cid S. L.", "LOC_DS_DIR": "Avda. De Los Pinos, 15", "LOC_DS_WEB": "www.anissalas.com" }, "geometry": { "type": "Point", "coordinates": [ -0.723962019, 38.381960115000027 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "MUNICIPIO": "Alcoy", "CEN_DS_NOM": "Licores De Mariola S. A.", "LOC_DS_DIR": "Camino Chorrador, 24", "LOC_DS_WEB": null }, "geometry": { "type": "Point", "coordinates": [ -0.482410965999975, 38.707712523 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "MUNICIPIO": "Alcoy", "CEN_DS_NOM": "Licores Sinc S. A.", "LOC_DS_DIR": "Pol. Cotes Baixes Calle C", "LOC_DS_WEB": "www.destilerias-sinc.com" }, "geometry": { "type": "Point", "coordinates": [ -0.461844527999972, 38.713754634 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "MUNICIPIO": "Monforte Del Cid", "CEN_DS_NOM": "Limiñana Y Botella S. L.", "LOC_DS_DIR": "San Vicente Ferrer, 3", "LOC_DS_WEB": "www.destileriastenis.com" }, "geometry": { "type": "Point", "coordinates": [ -0.725816355, 38.382329512 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "MUNICIPIO": "Elche", "CEN_DS_NOM": "Salas Y Sirvent S. L.", "LOC_DS_DIR": "Ctra. Murcia-alicante Km.63", "LOC_DS_WEB": "" }, "geometry": { "type": "Point", "coordinates": [ -0.660999815000025, 38.274972451 ] } }
+]
+}

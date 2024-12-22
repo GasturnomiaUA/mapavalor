@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Cereza",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4258" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "MUNICIPIO": "Alpatro (la Vall de Gallinera)", "LOC_DS_DIR": "Ctra. Albaida Denia, S/n.", "LOC_DS_WEB": "https://cerezasdealicante.com/", "Agroturismo": "-", "Nombre": "Cooperativa Cerezas de la Montaña de Alicante" }, "geometry": { "type": "Point", "coordinates": [ -0.262077880999982, 38.821726362 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "MUNICIPIO": "Villena", "LOC_DS_DIR": "Ctra. Villena-Pinoso, Km. 11", "LOC_DS_WEB": null, "Agroturismo": "-", "Nombre": "Villaventín" }, "geometry": { "type": "Point", "coordinates": [ -0.958609635570488, 38.570206018416478 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "MUNICIPIO": "Benimarfull", "LOC_DS_DIR": "C. Sant Jaume, 13", "LOC_DS_WEB": "https://cooperativadebenimarfull.es/", "Agroturismo": "-", "Nombre": "Cooperativa Agrícola Valenciana San Jaime Apóstol" }, "geometry": { "type": "Point", "coordinates": [ -0.39072724997433, 38.777684552326825 ] } },
+{ "type": "Feature", "properties": { "fid": 7, "MUNICIPIO": "Alcoi", "LOC_DS_DIR": "Partida Canal Alta, 5", "LOC_DS_WEB": "https://masderoc.com/", "Agroturismo": "-", "Nombre": "Mas de Roc" }, "geometry": { "type": "Point", "coordinates": [ -0.489124430232415, 38.64885344567918 ] } },
+{ "type": "Feature", "properties": { "fid": 11, "MUNICIPIO": "Planes", "LOC_DS_DIR": "Ciutat de València, 1", "LOC_DS_WEB": "http://www.cooperativadeplanes.es/", "Agroturismo": "-", "Nombre": "Cooperativa Agrícola de Planes" }, "geometry": { "type": "Point", "coordinates": [ -0.343549080643615, 38.784287408453814 ] } },
+{ "type": "Feature", "properties": { "fid": 12, "MUNICIPIO": "Villena", "LOC_DS_DIR": "Partida El Cascante, 190", "LOC_DS_WEB": "https://www.molinayazorin.es/", "Agroturismo": "-", "Nombre": "Cerezas Molina y Azorín" }, "geometry": { "type": "Point", "coordinates": [ -0.876756940978998, 38.66105413527881 ] } },
+{ "type": "Feature", "properties": { "fid": 68, "MUNICIPIO": "Villena", "LOC_DS_DIR": "Ctra. Madrid -Alicante, Km. 360", "LOC_DS_WEB": "https://www.grupocatala.com/contacto/", "Agroturismo": "-", "Nombre": "Catafruit Villena" }, "geometry": { "type": "Point", "coordinates": [ -0.850489027528433, 38.582399083370717 ] } },
+{ "type": "Feature", "properties": { "fid": 77, "MUNICIPIO": "Planes", "LOC_DS_DIR": "C/ Mare de Diu, 5", "LOC_DS_WEB": "https://cerezasaitana.eu/", "Agroturismo": "-", "Nombre": "Cerezas Aitana" }, "geometry": { "type": "Point", "coordinates": [ -0.342439925815996, 38.784567354519083 ] } },
+{ "type": "Feature", "properties": { "fid": 88, "MUNICIPIO": "Villena", "LOC_DS_DIR": "C/ San Cristobal, 11", "LOC_DS_WEB": "latorrefruits.com", "Agroturismo": "-", "Nombre": "La Torre Stone Fruits" }, "geometry": { "type": "Point", "coordinates": [ -0.797034605439673, 38.575248514290145 ] } }
+]
+}

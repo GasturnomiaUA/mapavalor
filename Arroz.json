@@ -1,0 +1,140 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.13132510599996294, 38.927865961000066]
+            },
+            "properties": {
+                "fid": 1,
+                "MUNICIPIO": "Oliva",
+                "CEN_DS_NOM": "Arroces Y Cereales S. A.",
+                "LOC_DS_DIR": "Ctra. Nacional 332, Km. 216",
+                "LOC_DS_WEB": "www.arcesa.com",
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.40280329299997675, 39.375925640000048]
+            },
+            "properties": {
+                "fid": 4,
+                "MUNICIPIO": "Silla",
+                "CEN_DS_NOM": "Arroz La Fallera",
+                "LOC_DS_DIR": "Avda. De Alicante, S/n",
+                "LOC_DS_WEB": "https://www.lafallera.es/",
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.36252339299994674, 39.513861167000073]
+            },
+            "properties": {
+                "fid": 6,
+                "MUNICIPIO": "Almassera",
+                "CEN_DS_NOM": "Arroz Dacsa",
+                "LOC_DS_DIR": "Ctra. Barcelona, Km 5",
+                "LOC_DS_WEB": "https://arrozdacsa.com/",
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.46572919699997328, 39.269593457000042]
+            },
+            "properties": {
+                "fid": 9,
+                "MUNICIPIO": "Alginet",
+                "CEN_DS_NOM": "Arroces E. Lozano, S. L.",
+                "LOC_DS_DIR": "Políg. Ind. Norte, S/n",
+                "LOC_DS_WEB": null,
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.33015501299996686, 39.581838893000054]
+            },
+            "properties": {
+                "fid": 10,
+                "MUNICIPIO": "Rafelbuñol",
+                "CEN_DS_NOM": "Arroces J. Montoro, S. L.",
+                "LOC_DS_DIR": "Germanells, 47",
+                "LOC_DS_WEB": "https://arrozjmontoro.com/",
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.37805916699994668, 39.279299755000068]
+            },
+            "properties": {
+                "fid": 11,
+                "MUNICIPIO": "Sollana",
+                "CEN_DS_NOM": "Arrocerías Antonio Tomás, S. L.",
+                "LOC_DS_DIR": "Albufera, 1",
+                "LOC_DS_WEB": "https://arroztomas.es/",
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.31907682499996781, 39.21894410200008]
+            },
+            "properties": {
+                "fid": 77,
+                "MUNICIPIO": "Sueca",
+                "CEN_DS_NOM": "Cercol",
+                "LOC_DS_DIR": "Polígono Nº 18, 46",
+                "LOC_DS_WEB": "https://es.cercol.coop/",
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.37487659699996811, 39.271504581000045]
+            },
+            "properties": {
+                "fid": 88,
+                "MUNICIPIO": "Sollana",
+                "CEN_DS_NOM": "Albufera Foods",
+                "LOC_DS_DIR": "Av. Ribera Baixa s/n",
+                "LOC_DS_WEB": "http://albuferafoods.com/",
+                "Agroturismo": "-"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.31418416599996135, 39.292523415000062]
+            },
+            "properties": {
+                "fid": 8888,
+                "MUNICIPIO": "El Palmar (València)",
+                "CEN_DS_NOM": "Arroz Tartana",
+                "LOC_DS_DIR": "Camino del Tancat de l’Estell, s/n",
+                "LOC_DS_WEB": "https://ricetartana.com/",
+                "Agroturismo": "Sí"
+            }
+        }
+    ]
+}

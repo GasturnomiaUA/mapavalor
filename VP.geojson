@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "VP",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Nombre": "Chozas Carrascal", "Dirección": "Finca El Carrascal, Vereda San Antonio", "Municipio": "San Antonio de Requena", "Web_Info": "https://chozascarrascal.com/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.123894399602723, 39.529177499629711, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Nombre": "Vera de Estenas", "Dirección": "Nacional III km 266", "Municipio": "Utiel", "Web_Info": "https://veradeestenas.es/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.178537900368031, 39.550882826511042, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Nombre": "El Terrerazo", "Dirección": "Km. 195 Carretera Nacional, N-330", "Municipio": "Utiel", "Web_Info": "https://bodegamustiguillo.com/productos/finca-terrerazo/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.254663999988714, 39.619581000180673, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Nombre": "Los Balagueses", "Dirección": "El Pontón – Carretera de Utiel Km 3", "Municipio": "El Pontón (Requena)", "Web_Info": "https://vegalfaro.com/es/pago-de-los-balagueses-2/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.147586200346544, 39.494804800363063, 0.0 ] } }
+]
+}

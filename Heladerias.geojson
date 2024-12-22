@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Heladerias",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "2", "Nombre": "Qvo Helado Artesano", "Municipio": "Altea", "Web": "https://www.facebook.com/qvoaltea", "Direccion": "Carrer Major, 19" }, "geometry": { "type": "Point", "coordinates": [ -0.051061082726523, 38.599622994645628, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "4", "Nombre": "Véneta Beach", "Municipio": "Port de Sagunt", "Web": null, "Direccion": "Av. Mediterrani, 105" }, "geometry": { "type": "Point", "coordinates": [ -0.210851866648267, 39.661781090147507, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "7", "Nombre": "Lucciano´s", "Municipio": "València", "Web": "http://www.luccianos.net/", "Direccion": "Pl. de l'Ajuntament, 2" }, "geometry": { "type": "Point", "coordinates": [ -0.480697511559165, 38.344102421877338, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "10", "Nombre": "My Gelatto", "Municipio": "Alcossebre", "Web": "https://www.facebook.com/MyGelatto/?locale=es_ES", "Direccion": "Passeig de Vista Alegre, 19" }, "geometry": { "type": "Point", "coordinates": [ 0.278621565310539, 40.24507743427155, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "9", "Nombre": "Livanti Gelato di Sicilia", "Municipio": "Alicante", "Web": "https://www.livanti.es/", "Direccion": "C. de Muñoz, 6" }, "geometry": { "type": "Point", "coordinates": [ -0.485217384152529, 38.350695960132683, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "8", "Nombre": "Horchatería Azul", "Municipio": "Alicante", "Web": "https://www.facebook.com/horchateria.azul/", "Direccion": "C. Calderón de la Barca, 38" }, "geometry": { "type": "Point", "coordinates": [ -0.482583864996921, 38.345134095970757, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "6", "Nombre": "Kiosko Peret", "Municipio": "Alicante", "Web": "https://m.facebook.com/pages/Kiosko-Peret/215656241809142", "Direccion": "Passeig Esplanada d'Espanya, 1" }, "geometry": { "type": "Point", "coordinates": [ -0.376985115513294, 39.4704457243297, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "5", "Nombre": "Candela La Gelateria", "Municipio": "Redován", "Web": "https://www.instagram.com/candela_lagelateria/?hl=es", "Direccion": "C. Francisco Peñalver Arróniz, 1" }, "geometry": { "type": "Point", "coordinates": [ -0.905943294248662, 38.112577822079707, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "3", "Nombre": "Valentino Gelato", "Municipio": "València", "Web": "https://www.facebook.com/p/Valentino-Gelato-100063744574497/", "Direccion": " C. Marqués de Zenete, 1" }, "geometry": { "type": "Point", "coordinates": [ -0.384318063439993, 39.465521027641437, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "1", "Nombre": "Laneu", "Municipio": "Alicante", "Web": "http://www.laneuhelados.es/", "Direccion": "C. San Francisco, 12" }, "geometry": { "type": "Point", "coordinates": [ -0.48444985797062, 38.344110943169383, 0.0 ] } }
+]
+}

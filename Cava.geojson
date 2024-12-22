@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Cava",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "Nombre": "Bodegas Hispano Suizas", "Dirección": "Ctra. Nacional 322, km 451,7", "Municipio": "El Pontón (Requena)", "Web_Info": "https://bodegashispanosuizas.com/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.14922530038743, 39.464984999386601, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "Nombre": "Dominio de la Vega", "Dirección": "Carretera Madrid-Valencia, PK 270", "Municipio": "San Antonio de Requena", "Web_Info": "dominiodelavega.com", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.144889314441219, 39.51461083303213, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "Nombre": "Pago de Tharsys", "Dirección": "Carretera Nacional III. Km. 274", "Municipio": "Requena", "Web_Info": "https://pagodetharsys.com/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.123085828761491, 39.497362138910233, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "Nombre": "Chozas Carrascal", "Dirección": "Finca El Carrascal, Vereda San Antonio", "Municipio": "San Antonio de Requena", "Web_Info": "https://chozascarrascal.com/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.123894400117811, 39.529177500118948, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 5, "Nombre": "Montesanco", "Dirección": "CV 460- Ctra Utiel -Los Isidros Km 7", "Municipio": "Requena", "Web_Info": "https://montesanco.com/", "Enoturismo": "Sí" }, "geometry": { "type": "Point", "coordinates": [ -1.2342907000537, 39.513153299864513, 0.0 ] } },
+{ "type": "Feature", "properties": { "fid": 6, "Nombre": "Unión Vinícola del Este", "Dirección": "C/ Construcción S/N - Polígono Industrial – El Romeral", "Municipio": "Requena", "Web_Info": "https://www.uveste.es/", "Enoturismo": "-" }, "geometry": { "type": "Point", "coordinates": [ -1.126296100081117, 39.506185000037668, 0.0 ] } }
+]
+}
